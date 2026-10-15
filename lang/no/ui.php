@@ -54,7 +54,7 @@ return [
         'cta_primary' => 'Kontakt oss for tilbud',
         'cta_secondary' => 'Utforsk kolleksjonene',
         'sectors_label' => 'Bransjer vi kler',
-        'sectors' => ['Helse & pleie', 'Kjøkken & servering', 'Arbeidsklær & sikkerhet', 'Hotell & gjestfrihet'],
+        'sectors' => ['Helse & pleie', 'Matindustri', 'Arbeidsklær & sikkerhet', 'Hotell & gjestfrihet'],
 
         'design_eyebrow' => 'Nordisk design',
         'design_title' => 'Profesjonelt uttrykk',
@@ -192,7 +192,7 @@ return [
             ['q' => 'Kan plaggene merkes med vår logo?', 'a' => 'Ja. Last opp logoen din (PNG, JPG eller PDF, inntil 5 MB) i kontaktskjemaet.'],
             ['q' => 'Hvilke sertifiseringer har fabrikken?', 'a' => 'OEKO-TEX® STeP, Made in Green by OEKO-TEX® og Amfori BSCI. EU Ecolabel er under sertifisering.'],
             ['q' => 'Hvor finner jeg dokumentasjon?', 'a' => 'Sertifikater og revisjonsrapporter kan lastes ned under Sertifiseringer.'],
-            ['q' => 'Hvilke bransjer leverer dere til?', 'a' => 'Helse og pleie, kjøkken og servering, arbeidsklær og sikkerhet, samt hotell og gjestfrihet.'],
+            ['q' => 'Hvilke bransjer leverer dere til?', 'a' => 'Helse og pleie, matindustri, arbeidsklær og sikkerhet, samt hotell og gjestfrihet.'],
         ],
         'more_title' => 'Fant du ikke svaret?',
         'more_text' => 'Send oss en melding, så svarer vi så raskt vi kan.',

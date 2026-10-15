@@ -3,7 +3,7 @@
 return [
     'collections' => [
         'health' => ['name' => 'Helse & Pleie', 'description' => 'Bekledning for helse, klinikk og omsorg.'],
-        'kitchen' => ['name' => 'Kjøkken & servering', 'description' => 'Bekledning for kokker, servering og matfaget.'],
+        'kitchen' => ['name' => 'Matindustri', 'description' => 'Bekledning for kokker, servering og matindustrien.'],
         'workwear' => ['name' => 'Arbeidsklær & sikkerhet', 'description' => 'Industri, håndverk og tekniske yrker.'],
         'hotel' => ['name' => 'Hotell & gjestfrihet', 'description' => 'Uniformer for hotell, resepsjon og service.'],
     ],
@@ -16,7 +16,7 @@ return [
         ],
         'apron-kobenhavn' => [
             'name' => 'Apron København',
-            'description' => 'Elegant sort forkle for kjøkken og servering.',
+            'description' => 'Elegant sort forkle for kokker og servering.',
             'details' => ['Lange knytebånd', 'Dype lommer', 'Flekkavvisende finish', 'OEKO-TEX® Standard 100'],
         ],
         'chef-hat-aarhus' => [

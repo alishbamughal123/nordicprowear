@@ -3,7 +3,7 @@
 return [
     'collections' => [
         'health' => ['name' => 'Healthcare', 'description' => 'Clothing for healthcare, clinics and care.'],
-        'kitchen' => ['name' => 'Kitchen & serving', 'description' => 'Clothing for chefs, serving and the food industry.'],
+        'kitchen' => ['name' => 'Food industry', 'description' => 'Clothing for chefs, serving staff and the food industry.'],
         'workwear' => ['name' => 'Workwear & safety', 'description' => 'Industry, crafts and technical professions.'],
         'hotel' => ['name' => 'Hotel & hospitality', 'description' => 'Uniforms for hotels, reception and service.'],
     ],
@@ -16,7 +16,7 @@ return [
         ],
         'apron-kobenhavn' => [
             'name' => 'Apron Copenhagen',
-            'description' => 'Elegant black apron for kitchen and serving.',
+            'description' => 'Elegant black apron for chefs and serving staff.',
             'details' => ['Long waist ties', 'Deep pockets', 'Stain-repellent finish', 'OEKO-TEX® Standard 100'],
         ],
         'chef-hat-aarhus' => [
