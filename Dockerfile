@@ -19,6 +19,16 @@ RUN composer dump-autoload --no-dev --optimize --no-scripts
 # --- 3. Runtime: FrankenPHP (Caddy + PHP) ---
 FROM dunglas/frankenphp:1-php8.3
 RUN install-php-extensions pdo_sqlite opcache intl zip
+
+# Render's containers reject binaries carrying file capabilities ("Operation not permitted").
+# We listen on a high port ($PORT), so the bind-low-ports capability isn't needed.
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends libcap2-bin \
+    && setcap -r /usr/local/bin/frankenphp \
+    && apt-get purge -y libcap2-bin \
+    && apt-get autoremove -y \
+    && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
 
 COPY --from=vendor /app /app
