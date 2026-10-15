@@ -1,0 +1,51 @@
+services:
+  - type: web
+    name: nordicprowear
+    runtime: docker
+    plan: free
+    healthCheckPath: /up
+    envVars:
+      - key: APP_NAME
+        value: NORDICPROWEAR
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: "false"
+      - key: APP_LOCALE
+        value: no
+      - key: APP_FALLBACK_LOCALE
+        value: en
+      - key: APP_KEY
+        sync: false          # paste the output of: php artisan key:generate --show
+      - key: APP_URL
+        sync: false          # e.g. https://nordicprowear.onrender.com
+      - key: DB_CONNECTION
+        value: sqlite
+      - key: SESSION_DRIVER
+        value: cookie
+      - key: CACHE_STORE
+        value: file
+      - key: QUEUE_CONNECTION
+        value: sync
+      - key: LOG_CHANNEL
+        value: stderr
+      - key: MAIL_MAILER
+        value: smtp
+      - key: MAIL_HOST
+        sync: false
+      - key: MAIL_PORT
+        value: "587"
+      - key: MAIL_USERNAME
+        sync: false
+      - key: MAIL_PASSWORD
+        sync: false
+      - key: MAIL_FROM_ADDRESS
+        sync: false
+      - key: MAIL_FROM_NAME
+        value: NORDICPROWEAR
+      - key: SITE_CONTACT_EMAIL
+        sync: false
+      - key: SITE_CONTACT_PHONE
+        sync: false
+      - key: SITE_CONTACT_ADDRESS
+        sync: false
