@@ -54,7 +54,7 @@ return [
         'cta_primary' => 'Contact us for a quote',
         'cta_secondary' => 'Explore our collections',
         'sectors_label' => 'Industries we dress',
-        'sectors' => ['Health & Care', 'Kitchen & serving', 'Workwear & safety', 'Hotel & hospitality'],
+        'sectors' => ['Healthcare', 'Kitchen & serving', 'Workwear & safety', 'Hotel & hospitality'],
 
         'design_eyebrow' => 'Nordic design',
         'design_title' => 'Professional expression',
@@ -192,7 +192,7 @@ return [
             ['q' => 'Can the garments carry our logo?', 'a' => 'Yes. Upload your logo (PNG, JPG or PDF, up to 5 MB) in the contact form.'],
             ['q' => 'Which certifications does the factory hold?', 'a' => 'OEKO-TEX® STeP, Made in Green by OEKO-TEX® and Amfori BSCI. EU Ecolabel is in progress.'],
             ['q' => 'Where can I find documentation?', 'a' => 'Certificates and audit reports can be downloaded under Certifications.'],
-            ['q' => 'Which industries do you supply?', 'a' => 'Health and care, kitchen and serving, workwear and safety, as well as hotel and hospitality.'],
+            ['q' => 'Which industries do you supply?', 'a' => 'Healthcare, kitchen and serving, workwear and safety, as well as hotel and hospitality.'],
         ],
         'more_title' => 'Did not find your answer?',
         'more_text' => 'Send us a message and we will respond as quickly as we can.',

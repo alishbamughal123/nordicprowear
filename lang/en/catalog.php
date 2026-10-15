@@ -2,7 +2,7 @@
 
 return [
     'collections' => [
-        'health' => ['name' => 'Health & Care', 'description' => 'Clothing for health, clinic and care.'],
+        'health' => ['name' => 'Healthcare', 'description' => 'Clothing for healthcare, clinics and care.'],
         'kitchen' => ['name' => 'Kitchen & serving', 'description' => 'Clothing for chefs, serving and the food industry.'],
         'workwear' => ['name' => 'Workwear & safety', 'description' => 'Industry, crafts and technical professions.'],
         'hotel' => ['name' => 'Hotel & hospitality', 'description' => 'Uniforms for hotels, reception and service.'],
